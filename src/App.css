@@ -1,0 +1,94 @@
+@media screen and (max-width: 480px) {
+    .pokeImg-main{
+      width:150px;
+      height:auto;
+      margin-left: 22% !important;
+      /*animation: switchImg infinite 3s linear;*/
+    }
+    .loading{
+      margin-left: 160px !important;
+      margin-top: 80px !important;
+      width:50px;
+      height:50px; 
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .pokeImg-main{
+      width:220px;
+      height:auto;
+      margin-left: 35%;
+      /*animation: switchImg infinite 3s linear;*/
+    }
+    .loading{
+      margin-left: 35%;
+      margin-top: 7%;
+      width:50px;
+      height:auto; 
+    }
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 150px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 200px;
+  padding:50px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.pokeImg-main{
+  width:220px;
+  height:auto;
+  margin-left: 40%;
+  /*animation: switchImg infinite 3s linear;*/
+}
+
+.imgBoard{
+  width:100%;
+  height:180px;
+}
+
+.loading{
+  margin-left: 48%;
+  margin-top: 30px;
+  width:50px;
+  height:50px; 
+}
+
+/*.pokeImg{*/
+/*  width:0px;*/
+/*  height:auto;*/
+/*  animation: switchImg2 infinite 3s linear;;*/
+/*}*/
+
+/*@keyframes switchImg {*/
+/*  from {transform: scale(1); margin-right:100px;}*/
+/*  to {transform: scale(0); margin-right: 0px}*/
+/*}*/
+
+/*@keyframes switchImg2 {*/
+/*  from {transform: scale(0); margin-right: 0px}*/
+/*  to {transform: scale(1); margin-right:100px;}*/
+/*}*/
+
